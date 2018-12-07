@@ -41,3 +41,16 @@ export const setFavourite = (id, favouriteState) => ({
     type: SET_FAVOURITE,
     payload: {id, favouriteState}
 });
+
+export const FETCH_ICONS = 'FETCH_ICONS';
+
+export const fetchIcons = () => ({
+    type: FETCH_ICONS,
+    payload: {
+        1: {isFavourite: true, name: "Icon 1", url: "img_avatar.png"},
+        2: {isFavourite: false, name: "Icon 2", url: "img_avatar.png"},
+        3: {isFavourite: false, name: "Icon 3", type: "fontawesome", icon: ['fab', 'facebook'], style: {color: '#3b5998', backgroundColor: '#eeeeee'}}, 
+        4: {isFavourite: false, name: "Icon 3", type: "fontawesome", icon: ['fab', 'react'], style: {color: '#00d8ff', backgroundColor: '#666666'}} 
+    }
+});
+
