@@ -34,3 +34,10 @@ export const fetchUser = (id) => async dispatch => {
 // });
 
 // export const fetchUser = (id) => dispatch => _fetchUser(id, dispatch);
+
+export const SET_FAVOURITE = 'SET_FAVOURITE';
+
+export const setFavourite = (id, favouriteState) => ({
+    type: SET_FAVOURITE,
+    payload: {id, favouriteState}
+});
