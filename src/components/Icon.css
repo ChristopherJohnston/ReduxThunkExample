@@ -11,7 +11,7 @@
     height: auto;
   }
   
-  .overlay {
+  .favourite-overlay {
     position: absolute;
     top: 3px;
     bottom: 0;
@@ -37,7 +37,7 @@
     opacity: 0.5;
   }
 
-  .not-fave:hover{
+  .not-fave:hover {
     opacity: 0.75;
     color: yellow;
   }
