@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    max-width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 3px;
+    right: 0;
+    opacity: 1;
+  }
+
+  .icon:hover {
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    stroke: black;
+    stroke-width: 1;
+  }
+
+  .not-fave {
+    color: white;
+    opacity: 0.5;
+  }
+
+  .not-fave:hover{
+    opacity: 0.75;
+    color: yellow;
+  }
+
+  .fave:hover {
+    opacity: 0.75;
+    color: yellow;
+  }
+  
+  .fave {
+    color: yellow;
+  }
