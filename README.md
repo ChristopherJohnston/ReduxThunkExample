@@ -1,3 +1,5 @@
+[![Build Status](https://coffeemat.visualstudio.com/ReduxThunkExample/_apis/build/status/ChristopherJohnston.ReduxThunkExample)](https://coffeemat.visualstudio.com/ReduxThunkExample/_build/latest?definitionId=1)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
